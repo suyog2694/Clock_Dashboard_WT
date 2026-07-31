@@ -1,16 +1,87 @@
-# React + Vite
+## Real-Time Timezone & Alarm Command Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application that allows users to view the current time in different time zones, manage multiple world clocks, set alarms, and use a countdown timer. The project is built using React and Vite with a simple and responsive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- View the local system time in real time
+- Analog and digital clock
+- Add and remove world clocks
+- Display time for multiple countries
+- Set alarms for different time zones
+- Countdown timer
+- Responsive user interface
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Dashboard
 
-## Expanding the ESLint configuration
+The main dashboard displays the current local time, selected time zone, and options to manage different clock panels.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Dashboard](screenshots/dashboard.png)
+
+# Local Clock
+
+This section shows the analog clock, digital clock, current date, and UTC offset for the local system.
+
+![Local Clock](screenshots/local-clock.png)
+
+# World Clocks
+
+Users can add multiple world clocks to monitor different time zones and remove them whenever required.
+
+![World Clocks](screenshots/world-clocks.png)
+
+# Timer and Alarm
+
+This section provides a countdown timer and allows users to create alarms for different time zones.
+
+![Timer and Alarm](screenshots/timer-alarm.png)
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Web Audio API
+
+## Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/suyog2694/Clock_Dashboard_WT.git
+```
+
+Go to the project folder:
+
+```bash
+cd Clock_Dashboard_WT
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Open the URL displayed in the terminal to view the application in your browser.
+
+## Future Improvements
+
+- Save alarms using local storage
+- Add more time zones
+- Improve the user interface
+- Add a stopwatch
+- Add notification support for alarms
+
+## Author
+
+Suyog Marathe
