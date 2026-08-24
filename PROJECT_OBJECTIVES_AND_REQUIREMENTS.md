@@ -2,9 +2,11 @@
 
 ## Objectives
 
-1. Develop a responsive dashboard that displays accurate local time through animated analog and digital clocks, including the current date and UTC offset.
-2. Enable users to manage multiple world clocks by selecting, viewing, and removing time zones in real time.
-3. Provide practical time-management tools, including configurable alarms and a countdown timer, with clear controls and reliable visual or audio notifications.
+1. To understand and implement React components for creating a responsive clock dashboard.
+2. To learn how to handle real-time date, time, and time-zone conversions.
+3. To implement practical time-management features such as world clocks, alarms, and countdown timers.
+4. To understand state management and dynamic UI controls in React.
+5. To improve understanding of responsive and interactive web application development.
 
 ## Software Requirements
 
